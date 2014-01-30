@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D10FA777-96CB-4DC8-968B-9C9A0820803B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LapackSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B6AE12C-AD12-4165-96BE-A1735F8BC45B</key>
+		<string>ssh://gh/xoyip/ios-sandbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LapackSample/LapackSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B6AE12C-AD12-4165-96BE-A1735F8BC45B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://gh/xoyip/ios-sandbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B6AE12C-AD12-4165-96BE-A1735F8BC45B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B6AE12C-AD12-4165-96BE-A1735F8BC45B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-sandbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
