@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C436E062-C77E-40E6-B417-135257251B07</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YoutubePlayer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE86C09A-587E-4F19-8180-7439E484E834</key>
+		<string>ssh://gh/xoyip/ios-sandbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YoutubePlayer/YoutubePlayer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE86C09A-587E-4F19-8180-7439E484E834</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://gh/xoyip/ios-sandbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE86C09A-587E-4F19-8180-7439E484E834</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE86C09A-587E-4F19-8180-7439E484E834</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-sandbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
