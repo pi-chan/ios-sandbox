@@ -1,1 +1,3 @@
+pod 'JSONKit', :podspec => "~/Desktop/adfuri/JSONKit.podspec"
 pod 'AdfurikunSDK', :podspec => '~/Desktop/adfuri/AdfurikunSDK.podspec'
+
