@@ -1,3 +1,3 @@
-pod 'JSONKit', :podspec => "~/Desktop/adfuri/JSONKit.podspec"
-pod 'AdfurikunSDK', :podspec => '~/Desktop/adfuri/AdfurikunSDK.podspec'
+pod 'JSONKit', :podspec => "https://bitbucket.org/gprandrpg/adfurikunsdk/raw/c27f7cc7e50764595ef6fe2f8f25859a9f727ad7/JSONKit.podspec"
+pod 'AdfurikunSDK', :podspec => 'https://bitbucket.org/gprandrpg/adfurikunsdk/raw/c27f7cc7e50764595ef6fe2f8f25859a9f727ad7/AdfurikunSDK.podspec'
 
