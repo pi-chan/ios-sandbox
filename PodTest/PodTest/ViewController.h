@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <adfurikunView.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<AdfurikunViewDelegate>
 
 @end
