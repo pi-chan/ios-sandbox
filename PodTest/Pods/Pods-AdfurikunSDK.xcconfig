@@ -1,0 +1,2 @@
+PODS_ADFURIKUNSDK_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/AdfurikunSDK" "$(PODS_ROOT)/AdfurikunSDK/AdfurikunSDK"
+PODS_ADFURIKUNSDK_OTHER_LDFLAGS = -framework SystemConfiguration -framework adfurikunsdk -weak_framework AdSupport

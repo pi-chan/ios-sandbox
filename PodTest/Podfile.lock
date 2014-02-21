@@ -1,0 +1,19 @@
+PODS:
+  - AdfurikunSDK (2.2.0)
+  - JSONKit (1.0)
+
+DEPENDENCIES:
+  - AdfurikunSDK (from `https://bitbucket.org/gprandrpg/adfurikunsdk/raw/c27f7cc7e50764595ef6fe2f8f25859a9f727ad7/AdfurikunSDK.podspec`)
+  - JSONKit (from `https://bitbucket.org/gprandrpg/adfurikunsdk/raw/c27f7cc7e50764595ef6fe2f8f25859a9f727ad7/JSONKit.podspec`)
+
+EXTERNAL SOURCES:
+  AdfurikunSDK:
+    :podspec: https://bitbucket.org/gprandrpg/adfurikunsdk/raw/c27f7cc7e50764595ef6fe2f8f25859a9f727ad7/AdfurikunSDK.podspec
+  JSONKit:
+    :podspec: https://bitbucket.org/gprandrpg/adfurikunsdk/raw/c27f7cc7e50764595ef6fe2f8f25859a9f727ad7/JSONKit.podspec
+
+SPEC CHECKSUMS:
+  AdfurikunSDK: 6637983b8abf5e37eb91720ab825557e3f8d430c
+  JSONKit: e21c192be2ac5aced0c862cf60e3d4fbc41898c1
+
+COCOAPODS: 0.29.0
