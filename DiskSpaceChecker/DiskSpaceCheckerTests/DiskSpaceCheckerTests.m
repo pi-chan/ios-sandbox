@@ -1,6 +1,6 @@
 //
-//  PhotoAppSampleTests.m
-//  PhotoAppSampleTests
+//  DiskSpaceCheckerTests.m
+//  DiskSpaceCheckerTests
 //
 //  Created by Hiromasa OHNO.
 //  Copyright (c) 2014年 xoyip. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface PhotoAppSampleTests : XCTestCase
+@interface DiskSpaceCheckerTests : XCTestCase
 
 @end
 
-@implementation PhotoAppSampleTests
+@implementation DiskSpaceCheckerTests
 
 - (void)setUp
 {

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  PhotoAppSample
+//  CustomButton
 //
-//  Created by Hiromasa OHNO on 2014/04/07.
+//  Created by Hiromasa OHNO on 2014/04/28.
 //  Copyright (c) 2014年 xoyip. All rights reserved.
 //
 
