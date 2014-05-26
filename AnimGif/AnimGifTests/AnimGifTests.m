@@ -28,7 +28,20 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    CFRunLoopRef rl = CFRunLoopGetCurrent();
+    
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://xoyip.hatenablog.com/"]];
+    NSOperationQueue *queue = [NSOperationQueue new];
+    [NSURLConnection sendAsynchronousRequest:req queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        NSLog(@"complete");
+        XCTAssert(NO);
+        CFRunLoopStop(rl);
+    }];
+    
+    NSLog(@"test ended");
+    XCTAssert(YES);
+    
+    CFRunLoopRun();
 }
 
 @end
