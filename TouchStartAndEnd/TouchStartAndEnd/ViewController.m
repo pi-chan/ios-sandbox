@@ -149,7 +149,33 @@
     if ([assetsLibrary
          videoAtPathIsCompatibleWithSavedPhotosAlbum:outputFileURL]) {
         [assetsLibrary writeVideoAtPathToSavedPhotosAlbum:outputFileURL
-                                          completionBlock:NULL];
+                                          completionBlock:^(NSURL *assetURL, NSError *error) {
+                                              [self clearAllVideos];
+                                          }];
+    }
+}
+
+- (void)clearAllVideos
+{
+    NSFileManager  *manager = [NSFileManager defaultManager];
+
+    // the preferred way to get the apps documents directory
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+
+    // grab all the files in the documents dir
+    NSArray *allFiles = [manager contentsOfDirectoryAtPath:documentsDirectory error:nil];
+
+    // filter the array for only sqlite files
+    NSPredicate *fltr = [NSPredicate predicateWithFormat:@"self ENDSWITH '.mov'"];
+    NSArray *movFiles = [allFiles filteredArrayUsingPredicate:fltr];
+
+    // use fast enumeration to iterate the array and delete the files
+    for (NSString *movFile in movFiles)
+    {
+        NSError *error = nil;
+        [manager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:movFile] error:&error];
+        NSAssert(!error, @"Assertion: Mov file deletion shall never throw an error.");
     }
 }
 
