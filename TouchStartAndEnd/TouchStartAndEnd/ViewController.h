@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <YLImageView.h>
 #import "MomentarySwitchView.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController<MomentarySwitchViewDelegate>
+@interface ViewController : UIViewController<MomentarySwitchViewDelegate, AVCaptureFileOutputRecordingDelegate>
 
-@property (weak, nonatomic) IBOutlet YLImageView *gifImageView;
 @property (weak, nonatomic) IBOutlet MomentarySwitchView *momentarySwitch;
 @end
