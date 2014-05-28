@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E79CEE1935AF7F00CD980B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79CED1935AF7F00CD980B /* Foundation.framework */; };
+		01E79CF01935AF7F00CD980B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79CEF1935AF7F00CD980B /* CoreGraphics.framework */; };
+		01E79CF21935AF7F00CD980B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79CF11935AF7F00CD980B /* UIKit.framework */; };
+		01E79CF81935AF7F00CD980B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E79CF61935AF7F00CD980B /* InfoPlist.strings */; };
+		01E79CFA1935AF7F00CD980B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79CF91935AF7F00CD980B /* main.m */; };
+		01E79CFE1935AF7F00CD980B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79CFD1935AF7F00CD980B /* AppDelegate.m */; };
+		01E79D011935AF7F00CD980B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E79CFF1935AF7F00CD980B /* Main.storyboard */; };
+		01E79D041935AF7F00CD980B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79D031935AF7F00CD980B /* ViewController.m */; };
+		01E79D061935AF7F00CD980B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E79D051935AF7F00CD980B /* Images.xcassets */; };
+		01E79D0D1935AF7F00CD980B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79D0C1935AF7F00CD980B /* XCTest.framework */; };
+		01E79D0E1935AF7F00CD980B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79CED1935AF7F00CD980B /* Foundation.framework */; };
+		01E79D0F1935AF7F00CD980B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79CF11935AF7F00CD980B /* UIKit.framework */; };
+		01E79D171935AF7F00CD980B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E79D151935AF7F00CD980B /* InfoPlist.strings */; };
+		01E79D191935AF7F00CD980B /* TouchStartAndEndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79D181935AF7F00CD980B /* TouchStartAndEndTests.m */; };
+		01E79D241935B09D00CD980B /* MomentarySwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79D231935B09D00CD980B /* MomentarySwitchView.m */; };
+		01E79D261935B26700CD980B /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01E79D251935B26700CD980B /* animation.gif */; };
+		9356309EF8124A778855B4F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D01784B5F5471FA9F16F63 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E79D101935AF7F00CD980B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E79CE21935AF7E00CD980B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E79CE91935AF7E00CD980B;
+			remoteInfo = TouchStartAndEnd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E79CEA1935AF7F00CD980B /* TouchStartAndEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchStartAndEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E79CED1935AF7F00CD980B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01E79CEF1935AF7F00CD980B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01E79CF11935AF7F00CD980B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01E79CF51935AF7F00CD980B /* TouchStartAndEnd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchStartAndEnd-Info.plist"; sourceTree = "<group>"; };
+		01E79CF71935AF7F00CD980B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01E79CF91935AF7F00CD980B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01E79CFB1935AF7F00CD980B /* TouchStartAndEnd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchStartAndEnd-Prefix.pch"; sourceTree = "<group>"; };
+		01E79CFC1935AF7F00CD980B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01E79CFD1935AF7F00CD980B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01E79D001935AF7F00CD980B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01E79D021935AF7F00CD980B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01E79D031935AF7F00CD980B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01E79D051935AF7F00CD980B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01E79D0B1935AF7F00CD980B /* TouchStartAndEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchStartAndEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E79D0C1935AF7F00CD980B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		01E79D141935AF7F00CD980B /* TouchStartAndEndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchStartAndEndTests-Info.plist"; sourceTree = "<group>"; };
+		01E79D161935AF7F00CD980B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01E79D181935AF7F00CD980B /* TouchStartAndEndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchStartAndEndTests.m; sourceTree = "<group>"; };
+		01E79D221935B09D00CD980B /* MomentarySwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentarySwitchView.h; sourceTree = "<group>"; };
+		01E79D231935B09D00CD980B /* MomentarySwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentarySwitchView.m; sourceTree = "<group>"; };
+		01E79D251935B26700CD980B /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
+		36D01784B5F5471FA9F16F63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F3453F2377471987DD20E5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E79CE71935AF7E00CD980B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E79CF01935AF7F00CD980B /* CoreGraphics.framework in Frameworks */,
+				01E79CF21935AF7F00CD980B /* UIKit.framework in Frameworks */,
+				01E79CEE1935AF7F00CD980B /* Foundation.framework in Frameworks */,
+				9356309EF8124A778855B4F0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E79D081935AF7F00CD980B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E79D0D1935AF7F00CD980B /* XCTest.framework in Frameworks */,
+				01E79D0F1935AF7F00CD980B /* UIKit.framework in Frameworks */,
+				01E79D0E1935AF7F00CD980B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E79CE11935AF7E00CD980B = {
+			isa = PBXGroup;
+			children = (
+				01E79CF31935AF7F00CD980B /* TouchStartAndEnd */,
+				01E79D121935AF7F00CD980B /* TouchStartAndEndTests */,
+				01E79CEC1935AF7F00CD980B /* Frameworks */,
+				01E79CEB1935AF7F00CD980B /* Products */,
+				82F3453F2377471987DD20E5 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		01E79CEB1935AF7F00CD980B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E79CEA1935AF7F00CD980B /* TouchStartAndEnd.app */,
+				01E79D0B1935AF7F00CD980B /* TouchStartAndEndTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E79CEC1935AF7F00CD980B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E79CED1935AF7F00CD980B /* Foundation.framework */,
+				01E79CEF1935AF7F00CD980B /* CoreGraphics.framework */,
+				01E79CF11935AF7F00CD980B /* UIKit.framework */,
+				01E79D0C1935AF7F00CD980B /* XCTest.framework */,
+				36D01784B5F5471FA9F16F63 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01E79CF31935AF7F00CD980B /* TouchStartAndEnd */ = {
+			isa = PBXGroup;
+			children = (
+				01E79D251935B26700CD980B /* animation.gif */,
+				01E79CFC1935AF7F00CD980B /* AppDelegate.h */,
+				01E79CFD1935AF7F00CD980B /* AppDelegate.m */,
+				01E79CFF1935AF7F00CD980B /* Main.storyboard */,
+				01E79D021935AF7F00CD980B /* ViewController.h */,
+				01E79D031935AF7F00CD980B /* ViewController.m */,
+				01E79D051935AF7F00CD980B /* Images.xcassets */,
+				01E79CF41935AF7F00CD980B /* Supporting Files */,
+				01E79D221935B09D00CD980B /* MomentarySwitchView.h */,
+				01E79D231935B09D00CD980B /* MomentarySwitchView.m */,
+			);
+			path = TouchStartAndEnd;
+			sourceTree = "<group>";
+		};
+		01E79CF41935AF7F00CD980B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E79CF51935AF7F00CD980B /* TouchStartAndEnd-Info.plist */,
+				01E79CF61935AF7F00CD980B /* InfoPlist.strings */,
+				01E79CF91935AF7F00CD980B /* main.m */,
+				01E79CFB1935AF7F00CD980B /* TouchStartAndEnd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E79D121935AF7F00CD980B /* TouchStartAndEndTests */ = {
+			isa = PBXGroup;
+			children = (
+				01E79D181935AF7F00CD980B /* TouchStartAndEndTests.m */,
+				01E79D131935AF7F00CD980B /* Supporting Files */,
+			);
+			path = TouchStartAndEndTests;
+			sourceTree = "<group>";
+		};
+		01E79D131935AF7F00CD980B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E79D141935AF7F00CD980B /* TouchStartAndEndTests-Info.plist */,
+				01E79D151935AF7F00CD980B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E79CE91935AF7E00CD980B /* TouchStartAndEnd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E79D1C1935AF7F00CD980B /* Build configuration list for PBXNativeTarget "TouchStartAndEnd" */;
+			buildPhases = (
+				2154BFAE267B4E79B18D59B7 /* Check Pods Manifest.lock */,
+				01E79CE61935AF7E00CD980B /* Sources */,
+				01E79CE71935AF7E00CD980B /* Frameworks */,
+				01E79CE81935AF7E00CD980B /* Resources */,
+				4D77FEF0D52E4E528D604FE7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchStartAndEnd;
+			productName = TouchStartAndEnd;
+			productReference = 01E79CEA1935AF7F00CD980B /* TouchStartAndEnd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01E79D0A1935AF7F00CD980B /* TouchStartAndEndTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E79D1F1935AF7F00CD980B /* Build configuration list for PBXNativeTarget "TouchStartAndEndTests" */;
+			buildPhases = (
+				01E79D071935AF7F00CD980B /* Sources */,
+				01E79D081935AF7F00CD980B /* Frameworks */,
+				01E79D091935AF7F00CD980B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E79D111935AF7F00CD980B /* PBXTargetDependency */,
+			);
+			name = TouchStartAndEndTests;
+			productName = TouchStartAndEndTests;
+			productReference = 01E79D0B1935AF7F00CD980B /* TouchStartAndEndTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E79CE21935AF7E00CD980B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xoyip;
+				TargetAttributes = {
+					01E79D0A1935AF7F00CD980B = {
+						TestTargetID = 01E79CE91935AF7E00CD980B;
+					};
+				};
+			};
+			buildConfigurationList = 01E79CE51935AF7E00CD980B /* Build configuration list for PBXProject "TouchStartAndEnd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E79CE11935AF7E00CD980B;
+			productRefGroup = 01E79CEB1935AF7F00CD980B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E79CE91935AF7E00CD980B /* TouchStartAndEnd */,
+				01E79D0A1935AF7F00CD980B /* TouchStartAndEndTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E79CE81935AF7E00CD980B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E79D061935AF7F00CD980B /* Images.xcassets in Resources */,
+				01E79CF81935AF7F00CD980B /* InfoPlist.strings in Resources */,
+				01E79D011935AF7F00CD980B /* Main.storyboard in Resources */,
+				01E79D261935B26700CD980B /* animation.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E79D091935AF7F00CD980B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E79D171935AF7F00CD980B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2154BFAE267B4E79B18D59B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D77FEF0D52E4E528D604FE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E79CE61935AF7E00CD980B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E79D041935AF7F00CD980B /* ViewController.m in Sources */,
+				01E79D241935B09D00CD980B /* MomentarySwitchView.m in Sources */,
+				01E79CFE1935AF7F00CD980B /* AppDelegate.m in Sources */,
+				01E79CFA1935AF7F00CD980B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E79D071935AF7F00CD980B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E79D191935AF7F00CD980B /* TouchStartAndEndTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E79D111935AF7F00CD980B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E79CE91935AF7E00CD980B /* TouchStartAndEnd */;
+			targetProxy = 01E79D101935AF7F00CD980B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01E79CF61935AF7F00CD980B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E79CF71935AF7F00CD980B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01E79CFF1935AF7F00CD980B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E79D001935AF7F00CD980B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01E79D151935AF7F00CD980B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E79D161935AF7F00CD980B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E79D1A1935AF7F00CD980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01E79D1B1935AF7F00CD980B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E79D1D1935AF7F00CD980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F3453F2377471987DD20E5 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStartAndEnd/TouchStartAndEnd-Prefix.pch";
+				INFOPLIST_FILE = "TouchStartAndEnd/TouchStartAndEnd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01E79D1E1935AF7F00CD980B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F3453F2377471987DD20E5 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStartAndEnd/TouchStartAndEnd-Prefix.pch";
+				INFOPLIST_FILE = "TouchStartAndEnd/TouchStartAndEnd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01E79D201935AF7F00CD980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchStartAndEnd.app/TouchStartAndEnd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStartAndEnd/TouchStartAndEnd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TouchStartAndEndTests/TouchStartAndEndTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		01E79D211935AF7F00CD980B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchStartAndEnd.app/TouchStartAndEnd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStartAndEnd/TouchStartAndEnd-Prefix.pch";
+				INFOPLIST_FILE = "TouchStartAndEndTests/TouchStartAndEndTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E79CE51935AF7E00CD980B /* Build configuration list for PBXProject "TouchStartAndEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E79D1A1935AF7F00CD980B /* Debug */,
+				01E79D1B1935AF7F00CD980B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E79D1C1935AF7F00CD980B /* Build configuration list for PBXNativeTarget "TouchStartAndEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E79D1D1935AF7F00CD980B /* Debug */,
+				01E79D1E1935AF7F00CD980B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E79D1F1935AF7F00CD980B /* Build configuration list for PBXNativeTarget "TouchStartAndEndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E79D201935AF7F00CD980B /* Debug */,
+				01E79D211935AF7F00CD980B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E79CE21935AF7E00CD980B /* Project object */;
+}
