@@ -13,7 +13,6 @@
 		01E79CF81935AF7F00CD980B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E79CF61935AF7F00CD980B /* InfoPlist.strings */; };
 		01E79CFA1935AF7F00CD980B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79CF91935AF7F00CD980B /* main.m */; };
 		01E79CFE1935AF7F00CD980B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79CFD1935AF7F00CD980B /* AppDelegate.m */; };
-		01E79D011935AF7F00CD980B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E79CFF1935AF7F00CD980B /* Main.storyboard */; };
 		01E79D041935AF7F00CD980B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79D031935AF7F00CD980B /* ViewController.m */; };
 		01E79D061935AF7F00CD980B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E79D051935AF7F00CD980B /* Images.xcassets */; };
 		01E79D0D1935AF7F00CD980B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79D0C1935AF7F00CD980B /* XCTest.framework */; };
@@ -21,10 +20,10 @@
 		01E79D0F1935AF7F00CD980B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79CF11935AF7F00CD980B /* UIKit.framework */; };
 		01E79D171935AF7F00CD980B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E79D151935AF7F00CD980B /* InfoPlist.strings */; };
 		01E79D191935AF7F00CD980B /* TouchStartAndEndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79D181935AF7F00CD980B /* TouchStartAndEndTests.m */; };
-		01E79D241935B09D00CD980B /* MomentarySwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E79D231935B09D00CD980B /* MomentarySwitchView.m */; };
 		01E79D261935B26700CD980B /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01E79D251935B26700CD980B /* animation.gif */; };
 		01E79D281935C3A600CD980B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79D271935C3A600CD980B /* AVFoundation.framework */; };
 		01E79D2A1935CF3600CD980B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E79D291935CF3600CD980B /* AssetsLibrary.framework */; };
+		01E79E05193844C500CD980B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E79E03193844C500CD980B /* Main.storyboard */; };
 		9356309EF8124A778855B4F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D01784B5F5471FA9F16F63 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		01E79CFB1935AF7F00CD980B /* TouchStartAndEnd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchStartAndEnd-Prefix.pch"; sourceTree = "<group>"; };
 		01E79CFC1935AF7F00CD980B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E79CFD1935AF7F00CD980B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		01E79D001935AF7F00CD980B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01E79D021935AF7F00CD980B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01E79D031935AF7F00CD980B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01E79D051935AF7F00CD980B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -58,11 +56,10 @@
 		01E79D141935AF7F00CD980B /* TouchStartAndEndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchStartAndEndTests-Info.plist"; sourceTree = "<group>"; };
 		01E79D161935AF7F00CD980B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01E79D181935AF7F00CD980B /* TouchStartAndEndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchStartAndEndTests.m; sourceTree = "<group>"; };
-		01E79D221935B09D00CD980B /* MomentarySwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentarySwitchView.h; sourceTree = "<group>"; };
-		01E79D231935B09D00CD980B /* MomentarySwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentarySwitchView.m; sourceTree = "<group>"; };
 		01E79D251935B26700CD980B /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
 		01E79D271935C3A600CD980B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		01E79D291935CF3600CD980B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		01E79E04193844C500CD980B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36D01784B5F5471FA9F16F63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F3453F2377471987DD20E5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,13 +131,11 @@
 				01E79D251935B26700CD980B /* animation.gif */,
 				01E79CFC1935AF7F00CD980B /* AppDelegate.h */,
 				01E79CFD1935AF7F00CD980B /* AppDelegate.m */,
-				01E79CFF1935AF7F00CD980B /* Main.storyboard */,
+				01E79E03193844C500CD980B /* Main.storyboard */,
 				01E79D021935AF7F00CD980B /* ViewController.h */,
 				01E79D031935AF7F00CD980B /* ViewController.m */,
 				01E79D051935AF7F00CD980B /* Images.xcassets */,
 				01E79CF41935AF7F00CD980B /* Supporting Files */,
-				01E79D221935B09D00CD980B /* MomentarySwitchView.h */,
-				01E79D231935B09D00CD980B /* MomentarySwitchView.m */,
 			);
 			path = TouchStartAndEnd;
 			sourceTree = "<group>";
@@ -254,8 +249,8 @@
 			files = (
 				01E79D061935AF7F00CD980B /* Images.xcassets in Resources */,
 				01E79CF81935AF7F00CD980B /* InfoPlist.strings in Resources */,
-				01E79D011935AF7F00CD980B /* Main.storyboard in Resources */,
 				01E79D261935B26700CD980B /* animation.gif in Resources */,
+				01E79E05193844C500CD980B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E79D041935AF7F00CD980B /* ViewController.m in Sources */,
-				01E79D241935B09D00CD980B /* MomentarySwitchView.m in Sources */,
 				01E79CFE1935AF7F00CD980B /* AppDelegate.m in Sources */,
 				01E79CFA1935AF7F00CD980B /* main.m in Sources */,
 			);
@@ -341,20 +335,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		01E79CFF1935AF7F00CD980B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01E79D001935AF7F00CD980B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01E79D151935AF7F00CD980B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				01E79D161935AF7F00CD980B /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01E79E03193844C500CD980B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E79E04193844C500CD980B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

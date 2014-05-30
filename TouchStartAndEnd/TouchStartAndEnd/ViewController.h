@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MomentarySwitchView.h"
 #import <AVFoundation/AVFoundation.h>
+#import <UIView+CFPressHoldButton.h>
 
-@interface ViewController : UIViewController<MomentarySwitchViewDelegate, AVCaptureFileOutputRecordingDelegate>
+@interface ViewController : UIViewController<CFPressHoldButtonDelegate, AVCaptureFileOutputRecordingDelegate>
+@property (weak, nonatomic) IBOutlet UIView *pressHoldButton;
 
-@property (weak, nonatomic) IBOutlet MomentarySwitchView *momentarySwitch;
 @end

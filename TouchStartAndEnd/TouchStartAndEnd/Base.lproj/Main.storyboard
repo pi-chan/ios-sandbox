@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iIz-Rm-QL8" customClass="MomentarySwitchView">
-                                <rect key="frame" x="57" y="255" width="206" height="57"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIz-Rm-QL8">
+                                <rect key="frame" x="57" y="491" width="206" height="57"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press and hold to record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsL-Hh-dik">
@@ -29,12 +29,21 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.85546875" green="1" blue="0.73471715329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="O7O-Q3-sO5"/>
+                                    <constraint firstAttribute="width" constant="206" id="ugO-vF-3Xa"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iIz-Rm-QL8" secondAttribute="trailing" constant="57" id="9Mb-29-t3i"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="iIz-Rm-QL8" secondAttribute="bottom" constant="20" id="SJc-rJ-qHY"/>
+                            <constraint firstItem="iIz-Rm-QL8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="57" id="baL-ci-X11"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="momentarySwitch" destination="iIz-Rm-QL8" id="dlW-dE-93o"/>
+                        <outlet property="pressHoldButton" destination="iIz-Rm-QL8" id="Q3a-yU-sTC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

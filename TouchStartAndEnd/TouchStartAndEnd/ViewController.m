@@ -27,13 +27,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.momentarySwitch.delegate = self;
+    self.pressHoldButton.delegate = self;
     
     
     // プレビュー用のビューを生成
     self.previewView = [[UIView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview:self.previewView];
-    self.previewView.hidden = YES;
+    [self.view insertSubview:self.previewView belowSubview:self.pressHoldButton];
+    
+    // self.previewView.hidden = YES;
     
     // 撮影開始
 }
@@ -101,9 +102,10 @@
     [self tearDownAVCapture];
 }
 
-- (void)on
+- (void)didStartHolding:(UIView *)targetView
 {
-    self.previewView.hidden = NO;
+    // self.previewView.hidden = NO;
+    self.pressHoldButton.backgroundColor = [UIColor grayColor];
     
     // 動画ファイルへの出力
     self.videoOutput = [AVCaptureMovieFileOutput new];
@@ -114,10 +116,11 @@
     [self.videoOutput startRecordingToOutputFileURL:saveURL recordingDelegate:self];
 }
 
-- (void)off
+- (void)didFinishHolding:(UIView *)targetView
 {
-    self.previewView.hidden = YES;
+    // self.previewView.hidden = YES;
     [self.videoOutput stopRecording];
+    self.pressHoldButton.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didStartRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections
